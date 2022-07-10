@@ -30,14 +30,15 @@
   top: -25px;
   right: 0;
   font-size: 1.25rem;
-  color: var(--title-color);
+  color: var(--text-color);
   cursor: pointer;
   transition: .3s;
 }
 
 .change-theme:hover {
-  color: var(--text-color);
+  color: var(--primary-color);
 }
+
 
 /*========== BASE ==========*/
 

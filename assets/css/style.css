@@ -24,6 +24,21 @@
   --font-bold: 700;
 }
 
+/*=============== THEME ===============*/
+.change-theme {
+  position: absolute;
+  top: -25px;
+  right: 0;
+  font-size: 1.25rem;
+  color: var(--title-color);
+  cursor: pointer;
+  transition: .3s;
+}
+
+.change-theme:hover {
+  color: var(--text-color);
+}
+
 /*========== BASE ==========*/
 
 * {
@@ -55,7 +70,7 @@ ul {
 
 /*========== THEME ==========*/
 
- body.dark {
+ body.dark-theme {
   --body-color: #00082F;
   --text-color: #EDF2FF;
  }   
@@ -66,6 +81,7 @@ ul {
   max-width: 300px;
   margin-inline: auto;
   text-align: center;
+  position: relative;
 }
 
 .section {
